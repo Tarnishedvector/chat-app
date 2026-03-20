@@ -15,7 +15,7 @@ export default function App() {
 
   const handlePasswordSubmit = (e) => {
     e.preventDefault();
-    if (passwordInput === 'secret123') {
+    if (passwordInput === 'nandigram') {
       setIsPrivateUnlocked(true);
       setPasswordInput('');
     } else {
