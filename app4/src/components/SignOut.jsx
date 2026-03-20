@@ -4,7 +4,7 @@ import { signOut } from 'firebase/auth';
 
 export default function SignOut() {
   return auth.currentUser && (
-    <button className="sign-out-btn" onClick={() => signOut(auth)}>
+    <button className="btn-secondary" onClick={() => signOut(auth)}>
       Sign Out
     </button>
   );

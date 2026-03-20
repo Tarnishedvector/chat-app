@@ -11,7 +11,7 @@ export default function SignIn() {
 
   return (
     <div className="sign-in-container">
-      <button className="sign-in-btn" onClick={signInWithGoogle}>
+      <button className="btn-primary" onClick={signInWithGoogle}>
         Sign in with Google
       </button>
       <p className="guidelines">Please follow the community guidelines.</p>
