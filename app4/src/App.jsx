@@ -15,7 +15,7 @@ export default function App() {
 
   const handlePasswordSubmit = (e) => {
     e.preventDefault();
-    if (passwordInput === 'nandigram') {
+    if (passwordInput === import.meta.env.VITE_PRIVATE_ROOM_PASSWORD) {
       setIsPrivateUnlocked(true);
       setPasswordInput('');
     } else {
