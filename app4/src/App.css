@@ -422,16 +422,32 @@ body {
     font-size: 0.95rem;
   }
 
+  .password-prompt {
+    padding: 30px 15px;
+  }
+
   .password-prompt h2 {
     font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .password-prompt p {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
   }
 
   .password-form {
     flex-direction: column;
-    padding: 16px;
+    padding: 20px;
+    width: 90%;
+    max-width: 320px;
+    margin: 0 auto;
+    gap: 16px;
   }
 
-  .password-form input {
+  .password-form input, 
+  .password-form button {
     width: 100%;
+    box-sizing: border-box;
   }
 }
